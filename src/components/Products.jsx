@@ -1,0 +1,68 @@
+const Products = [
+  {
+    id: 1,
+    name: 'Apple Mackbook Air',
+    price: 99900,
+    category: 'Electronics',
+    rating: 4.5,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQXJ1dN8Tuqlea96AUHJe-GKjjL6JPbUTwoMlGN5InQGt_eNW3WGyPVUGcXbM7afRE7j72fm3C48SnKkHoXera3jBgSy2tNPztHbytstBY-sFj2-iitsE15xH8',
+  },
+  {
+    id: 2,
+    name: ' Party Wear Saree Dress',
+    price: 9250,
+    category: 'Women',
+    rating: 4.8,
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRVBGFrFqGiDYh3eYNdyeuCLde6Ge_Ejy2y2qYFkgf_XddCt0T9W70ZL2UfKhhFvS1ulfCHgjpXLZuz-XtW0XG7jOvkYjIkBevAfQc_RW0wYZQqtJZVAVQo',
+  },
+  {
+    id: 3,
+    name: 'Smartwatch NoiseFit Halo',
+    price: 3699,
+    category: 'Electronics',
+    rating: 3.9,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR56dHrVHs6EFmROxzG6Lr-4rHdwoR_AVM_wmMxhyJ09tfLcxs59-RlFaSLfRUJcgQxQArnv7MighKPGUC7noNoVU5-nT4rLtTGIGlDSWPVd2tbrUTOPnA3CA',
+  }, 
+  {
+    id: 4,
+    name: 'Boat Rockerz Bluetooth',
+    price: 1199,
+    category: 'Electronics',
+    rating: 4.3,
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS1s8Szw3eNuTppgZAynrBg62K6cbkNSHsEt-j5L5gJUglMiE6B1hEk9hPcXMz2NzYP7vyWUwjWgZYn3Ee6oAsvKW-0-kZhdKh5QWg0fWw',
+  },
+  {
+    id: 5,
+    name: 'Party Wear Anarkali Dress',
+    price: 1750,
+    category: 'Women',
+    rating: 4.6,
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR5yvD7uehLwI74VAtjJpFjSiLOqPnlBb7qhEFasrfzJwgEud3UGklZJD7WRnPkScueGtFSiw6niWaM9x-Jy-JmuWo3egFHDlIZ7fsw3ZM',
+  },
+  {
+    id: 6,
+    name: ' Casual Shirt Black Dress',
+    price: 385,
+    category: 'Gents',
+    rating: 3.0,
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQNbqUk84q7s0kcLhqYLF3J4kNA2l81_6_tMuJ7Bt3Tn467kDTVsOK0CWvAgt1xpLRyd33NXH9IjPqUWr96cO6HoxC2pL54aGD4wjL98sC-XP1gvq-Y-47Ctg',
+  },
+  {
+    id: 7,
+    name: 'Printed Midi Dress',
+    price: 950,
+    category: 'Women',
+    rating: 3.5,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSml2k9LZuhPE1luCZxBRfw-uIPrZ0acsmEvU4_zezhHsp_sMSMNDfYNXvisUhMYlWLsRITL1X75ltSsuls9WSSRgSv4qEM9LI1LwaASG1sy-63ip3eQjlD',
+  },
+  {
+    id: 8,
+    name: 'Mens Slim Fit Dress',
+    price: 2540,
+    category: 'Gents',
+    rating: 4.0,
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQsdNNu7GF51IJ_pg6CDz4CejxP9A4akxsZ7zwBpptEFaDsRqQJvtX4dWE1SIGewRsXMfUf8HMt4xhEoX0owYsPMh29KBBmnOzC4lEGncb-Sxpi822B46Wp',
+  },
+];
+
+export default Products;

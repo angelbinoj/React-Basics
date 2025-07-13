@@ -1,16 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
-import Banner from './components/Banner'
+
+import ProductList from './components/ProductList'
 
 function App() {
- 
 
-
-  return (
+ return (
     <>
       <Header />
-      <Banner />
+      <ProductList/>
     </>
   )
 }
