@@ -51,34 +51,34 @@ const ProductList = () => {
         <div><input className='form-control h-2.5 sm:w-screen md:w-96 border-b-2 border-r-2 border-slate-400 shadow-xxl p-5 rounded-sm' type="text" placeholder='Search Products...' value={searchTerm} onInput={(e) => searchContacts(e.target.value)} ></input>
         </div>
         <div>
-        <div>
-          <div><label for="Filter" class=" my-1 p-3 flex justify-start items-center gap-3 font-medium text-xl text-white"><h4>Filter</h4> <FiFilter /></label></div>
-          <select id="Category" class="bg-white m-1 border border-gray-300 shadow-md text-slate-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 p-2.5  dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            onChange={(e) => filterOut(e.target.value)}>
-            <option value='' disabled selected><b>Categories</b></option>
-            <option value="Electronics">Electronics</option>
-            <option value="Gents">Gents</option>
-            <option value="Women">Women</option>
-          </select>
-        </div>
-        <div>
-          <select id="Category" class="bg-white m-1 border border-gray-300 shadow-md text-slate-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 p-2.5  dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            onChange={(e) => filterByPrice(e.target.value)}>
-            <option disabled selected>Filter by Price</option>
-            <option value="500">Under ₹500</option>
-            <option value="1000">Under ₹1000</option>
-            <option value="2000">Under ₹2000</option>
-            <option value="10000">Under ₹10000</option>
-          </select>
-        </div>
-        <div>
-          <select id="Category" class="bg-white m-1 border border-gray-300 shadow-md text-slate-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 p-2.5  dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            onChange={(e) => sortByPrice(e.target.value)}>
-            <option disabled selected>Sort by Price</option>
-            <option value="asc">Low to High</option>
-            <option value="desc">High to Low</option>
-          </select>
-        </div>
+          <div>
+            <div><label for="Filter" class=" my-1 p-3 flex justify-start items-center gap-3 font-medium text-xl text-white"><h4>Filter</h4> <FiFilter /></label></div>
+            <select id="Category" class="bg-white m-1 border border-gray-300 shadow-md text-slate-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 p-2.5  dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              onChange={(e) => filterOut(e.target.value)}>
+              <option value='' disabled selected><b>Categories</b></option>
+              <option value="Electronics">Electronics</option>
+              <option value="Gents">Gents</option>
+              <option value="Women">Women</option>
+            </select>
+          </div>
+          <div>
+            <select id="Category" class="bg-white m-1 border border-gray-300 shadow-md text-slate-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 p-2.5  dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              onChange={(e) => filterByPrice(e.target.value)}>
+              <option disabled selected>Filter by Price</option>
+              <option value="500">Under ₹500</option>
+              <option value="1000">Under ₹1000</option>
+              <option value="2000">Under ₹2000</option>
+              <option value="10000">Under ₹10000</option>
+            </select>
+          </div>
+          <div>
+            <select id="Category" class="bg-white m-1 border border-gray-300 shadow-md text-slate-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 p-2.5  dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              onChange={(e) => sortByPrice(e.target.value)}>
+              <option disabled selected>Sort by Price</option>
+              <option value="asc">Low to High</option>
+              <option value="desc">High to Low</option>
+            </select>
+          </div>
         </div>
       </div>
       <div className="p-10 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-5">

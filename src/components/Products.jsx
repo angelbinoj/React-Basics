@@ -22,7 +22,7 @@ const Products = [
     category: 'Electronics',
     rating: 3.9,
     image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR56dHrVHs6EFmROxzG6Lr-4rHdwoR_AVM_wmMxhyJ09tfLcxs59-RlFaSLfRUJcgQxQArnv7MighKPGUC7noNoVU5-nT4rLtTGIGlDSWPVd2tbrUTOPnA3CA',
-  }, 
+  },
   {
     id: 4,
     name: 'Boat Rockerz Bluetooth',
